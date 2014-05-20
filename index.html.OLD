@@ -218,31 +218,31 @@
 							</a>
 						</li>
 						<li>
-							<a href="#ocnalysis" class="dropdown-toggle">
-								Oucupant Analysis
+							<a href="#roomanalysis" class="dropdown-toggle">
+								Room Analysis
 							</a>
 						</li>
 						<li>
-							<a href="#envnalysis" class="dropdown-toggle">
-								Environmental Analysis
+							<a href="#" class="dropdown-toggle">
+								People Analysis
 							</a>
 							
 						</li>
-						<!--<li>
+						<li>
 							<a  href="#" class="dropdown-toggle">
 								Data Collection Analysis 
 							</a>
-						</li>-->
+						</li>
 						<li>
-							<a  href="#sysarch" class="dropdown-toggle">
+							<a  href="#" class="dropdown-toggle">
 								System Architecture
 							</a>
 						</li>
-						<!--<li>
+						<li>
 							<a href="#" class="dropdown-toggle">
 								Administration
 							</a>
-						</li>	-->						
+						</li>							
 					</ul>
 				</div>
 			</div>
@@ -458,13 +458,13 @@
 			</div>
 			<!-- end: CORE BOXES CONTAINER -->
 		</section>
-		<a name="ocnalysis"> </a>
+		<a name="roomanalysis"> </a>
 		<section class="wrapper wrapper-grey padding50">
 			<!-- start: Rooms Analysis CONTAINER -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="center">Ocupant Analysis</h2>
+						<h2 class="center">Room Analysis</h2>
 						<p class="center">
 							Get up to the second(s) view of what's happening in each room in the office.
 						</p>
@@ -473,7 +473,7 @@
 								<div class="panel panel-default ">
 									<div class="panel-heading">
 										<i class="clip-bars"></i>
-										Ocupants per Room
+										Events real-time
 									</div>
 									<div class="flot-medium-container panel-body">
 										<div id="placeholder-h3" class="flot-placeholder"></div>
@@ -493,35 +493,35 @@
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 						</div>
 						<hr>
 						<p class="center">
-							<a href="#ocnalysis">
+							<a href="#">
 								View More Stuff Here [Hold for Future Use]
 							</a>
 						</p>
@@ -530,39 +530,25 @@
 			</div>
 			<!-- end: Rooms Analysis CONTAINER -->
 		</section>
-		<a name="envnalysis"> </a>		
 		<section class="wrapper wrapper-grey padding50">
 			<!-- start: People Analysis CONTAINER -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="center">Environmental Analysis</h2>
+						<h2 class="center">People Analysis</h2>
 						<p class="center">
-							See live statistics of temperature and humitidy by room.
+							Not Sure what's going in here without the ability to track an individual.  May want to change this seciont
 						</p>
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-12">
 								<div class="panel panel-default ">
 									<div class="panel-heading">
 										<i class="clip-bars"></i>
-										Temperature per Room
+										People per Room
 									</div>
 									<div class="flot-inner-container panel-body">
 										<div class="flot-medium-container">
-											<div id="placeholder-h1a" class="flot-placeholder"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="panel panel-default ">
-									<div class="panel-heading">
-										<i class="clip-bars"></i>
-										Humidity per Room
-									</div>
-									<div class="flot-inner-container panel-body">
-										<div class="flot-medium-container">
-											<div id="placeholder-h1b" class="flot-placeholder"></div>
+											<div id="placeholder-h1" class="flot-placeholder"></div>
 										</div>
 									</div>
 								</div>
@@ -572,28 +558,28 @@
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
@@ -609,7 +595,6 @@
 			</div>
 			<!-- end: People Analysis CONTAINER -->
 		</section>
-		<a name="sysarch"> </a>		
 		<section class="wrapper wrapper-grey padding50">
 		<!-- start: Data Collection Analysis CONTAINER -->
 			<div class="container">
@@ -647,32 +632,81 @@
 								<img src="assets/images/poc_images.png" alt="" />
 							</div>
 						</div>
+						<div class="row">
+							<div class="col-md-1" >
+								<div class="sparkline_bar_good">
+									<span>3,5,9,8,13,11,14</span>+10%
+								</div>
+								<div class="values">
+									<strong>18304</strong>
+									# of Occupants
+								</div>						
+							</div>
+							<div class="col-md-1 " >
+								
+							</div>
+							<div class="col-md-1" >
+								<div class="sparkline_bar_neutral">
+											<span>20,15,18,14,10,12,15,20</span>0%
+										</div>
+										<div class="values">
+											<strong>3833</strong>
+											# of Measures/Sec
+										</div>
+							</div>
+							<div class="col-md-2 " >
+							</div>
+							<div class="col-md-1" >
+								<div class="sparkline_bar_bad">
+									<span>4,6,10,8,12,21,11</span>+50%
+								</div>
+								<div class="values">
+									<strong>18304</strong>
+									# of Writes/Sec
+								</div>
+							</div>
+							<div class="col-md-2 " >
+								
+							</div>
+							<div class="col-md-1" >
+									<div class="easy-pie-chart">
+										<span class="bounce number" data-percent="44"> <span class="percent">44</span> </span>
+										<div class="label-chart">
+											Bounce Rate
+										</div>
+									</div>					
+							</div>
+							<div class="col-md-1" >
+								# of Sessions
+								# of Clicks
+							</div>
+						</div>
 						<div class=" animate-group" data-animation-interval="100">
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="grid-medium-item">
 										<div class="grid-content-box">
-											Something Should Go Here
+											Prediction
 										</div>
 								</div>
 							</div>
@@ -688,6 +722,139 @@
 			</div>
 			<!-- end: Data Collection Analysis CONTAINER -->
 		</section>
+		<section class="wrapper wrapper-grey padding50">
+		<!-- start: Data Collection Analysis CONTAINER -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="center">Data Collection Analysis</h2>
+						<p class="center">
+							Get up to the second(s) view of what's happening in each room in the office.
+						</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel panel-default ">
+									<div class="panel-heading">
+										<i class="clip-bars"></i>
+										IOPS
+									</div>
+									<div class="flot-mini-container panel-body">
+										<div id="placeholder-h5" class="flot-placeholder"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel panel-default ">
+									<div class="panel-heading">
+										<i class="clip-bars"></i>
+										Throughput
+									</div>
+									<div class="flot-mini-container panel-body">
+										<div id="placeholder-h6" class="flot-placeholder"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel panel-default ">
+									<div class="panel-heading">
+										<i class="clip-bars"></i>
+										Throughput
+									</div>
+									<div class="flot-mini-container panel-body">
+										<div id="placeholder-h7" class="flot-placeholder"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<p class="center">
+							<a href="#">
+								View the Full Portfolio here
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- end: Data Collection Analysis CONTAINER -->
+		</section>
+		<section class="wrapper wrapper-grey padding50">
+		<!-- start: Admin Analysis CONTAINER -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="center">Admin</h2>
+						<p class="center">
+							Get up to the second(s) view of what's happening in each room in the office.
+						</p>
+						<div class="row">
+							<div class="col-md-8">
+								<div class="panel panel-default ">
+									<div class="panel-heading">
+										<i class="clip-bars"></i>
+										Events real-time
+									</div>
+									<div class="flot-inner-container panel-body">
+										<div class="flot-medium-container">
+											<div id="placeholder-h4" class="flot-placeholder"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="panel row ">
+									<img src="assets/images/schematic_kitchen.png" alt="Image 1" class="ra-image">
+								</div>
+								<div class="panel row ">
+									<img src="assets/images/schematic_conf.png" alt="Image 1" class="ra-image">
+								</div>
+							</div>
+						</div>
+						<div class=" animate-group" data-animation-interval="100">
+							<div class="col-md-3 col-sm-6">
+								<div class="grid-medium-item">
+										<div class="grid-content-box">
+											Prediction
+										</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="grid-medium-item">
+										<div class="grid-content-box">
+											Prediction
+										</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="grid-medium-item">
+										<div class="grid-content-box">
+											Prediction
+										</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="grid-medium-item">
+										<div class="grid-content-box">
+											Prediction
+										</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<p class="center">
+							<a href="#">
+								View the Full Portfolio here
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- end: Admin CONTAINER -->
+		</section>
+		
 	</div>
 	<!-- end: MAIN CONTAINER -->
 	<!-- start: FOOTER -->

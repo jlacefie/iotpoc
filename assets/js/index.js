@@ -776,9 +776,13 @@ var Index = function () {
             
         });
     };
+    
+    
+    
     //end admin aditions
     return {
         init: function () {
+        	 
             runRevolution();
             runColorbox();
             /*  added from admin panel */
@@ -787,9 +791,7 @@ var Index = function () {
             //runChart2();
             runChart3(); //room analysis
             runChart4(); // slider moving chart
-            runChart5(); // data flow - iops
-            runChart6(); // data flow - throughput
-            runChart7(); // data flow - connections
+            //  runschematic1();
            // runSparkline();
            // runEasyPieChart();
         }

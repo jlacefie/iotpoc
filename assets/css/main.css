@@ -3237,3 +3237,29 @@ label {
 	vertical-align: baseline;
 	white-space: nowrap;
 }
+
+/*
+ * Image overlay stuff
+ * 
+ */
+.photo-group .photo-wrapper {
+  position: relative;
+}
+
+.photo-group .photo-wrapper .photo {
+    position: relative;
+    margin: 0 auto;
+    display: table;
+}
+
+.photo-group .photo-wrapper .photo-label-conf {
+  position: absolute;      
+  top: 60px;
+  left: 85px; 
+}
+
+.photo-group .photo-wrapper .photo-label-kitch {
+  position: absolute;      
+  top: 40px;
+  left: 85px; 
+}

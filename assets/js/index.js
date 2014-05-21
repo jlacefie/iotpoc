@@ -785,9 +785,7 @@ var Index = function () {
 	    	url: 'http://208.96.49.194:3000/api/count/type/all',
 	      	dataType: 'jsonp',
 	      	success: function(data, status) {
-	      		$.each(data, function(key, value) {
-					 	$("#scehmatic1").append(value);
-				});
+	      		$("#scehmatic1").append(data[0].value);
 	      	}, 
 	      	error: function(jqXHR, textStatus, errorThrown) {
 	      		alert("Error: " + errorThrown); 
